@@ -1,0 +1,1 @@
+import{Gt as e,It as t,Pt as n,en as r,jt as i}from"./DatosProvider-miVXm1W5.js";function a(){let[a,o]=r(),s=a.get(`mes`),c=s&&e.safeParse(s).success?s:n(i()),l=e=>o(t=>(t.set(`mes`,e),t));return[c,l,e=>l(t(c,e))]}export{a as t};
